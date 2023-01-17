@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Poppins';
+  font-size: 62.5%;
+  box-sizing: inherit;
+}
+
+body {
+  background: hsl(218, 28%, 13%);
+  /* background: hsl(219, 30%, 18%); */
+
+  @apply text-slate-50;
+}
+
+#header {
+  background: hsl(219, 30%, 18%);
+}
+
+.container {
+  @apply max-w-[37.5rem] px-12 mt-[4rem] ml-auto mr-auto;
+}
+
+.background-image {
+  background: hsl(219, 30%, 18%) url('../src/assets/images/bg-curvy-mobile.svg');
+  height: auto;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.btn {
+  background-image: linear-gradient(
+    to right,
+    hsl(176, 68%, 64%),
+    hsl(198, 60%, 50%)
+  );
+}
+
+.primary-color {
+  color: hsl(176, 68%, 64%);
+  border-bottom: 1px solid hsl(176, 68%, 64%);
+}
+
+.testimonial-bg {
+  background-color: hsl(219, 30%, 18%);
+}
+
+.testimonial-container {
+  background-image: url('../src/assets/images/bg-quotes.png');
+  background-repeat: no-repeat;
+  background-position: top left;
+  padding: 2rem 0;
+  z-index: 100;
+  width: auto;
+  height: 10px;
+  /* position: absolute; */
+  /* top: -2rem; */
+}
