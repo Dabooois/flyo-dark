@@ -51,7 +51,7 @@ body {
   border-bottom: 1px solid hsl(176, 68%, 64%);
 }
 
-.testimonial-bg {
+.card-bg {
   background-color: hsl(219, 30%, 18%);
 }
 
@@ -65,4 +65,27 @@ body {
   height: 10px;
   /* position: absolute; */
   /* top: -2rem; */
+}
+
+.footer-bg {
+  background: hsl(216, 53%, 9%);
+}
+
+#footer-nav ul:not(:last-child) {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+#footer-nav ul li:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+#footer-nav li {
+  font-size: 1.6rem;
+  @apply text-slate-400;
+}
+
+#footer-nav li:hover {
+  text-decoration: underline;
+  @apply text-slate-50;
 }

@@ -4,7 +4,7 @@ import IconArrow from '../assets/images/icon-arrow.svg';
 
 const StayProductive = () => {
   return (
-    <div className='container relative mb-[12rem]'>
+    <section className='container relative mb-[12rem]'>
       <div className='shrink-0 mb-[6rem] '>
         <img
           src={StayProductiveImage}
@@ -28,7 +28,7 @@ const StayProductive = () => {
         See how Flyo works
         <img src={IconArrow} className='ml-3' alt='icon arrow' />
       </button>
-    </div>
+    </section>
   );
 };
 

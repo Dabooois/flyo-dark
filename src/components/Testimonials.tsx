@@ -29,12 +29,12 @@ const Testimonials = () => {
     },
   ];
   return (
-    <section className='container relative' id='testimonials'>
+    <section className='container relative mb-[12rem]' id='testimonials'>
       <img src={Quote} alt='quote' className='h-[2rem] w-auto  ml-8' />
       {data.map(({ description, image, name, role }, index) => {
         return (
           <article
-            className=' shadow-lg flex flex-col gap-9 mx-8 p-8 testimonial-bg mb-8 rounded-xl '
+            className=' shadow-lg flex flex-col gap-9 mx-8 p-8 card-bg mb-8 rounded-xl '
             key={index}
           >
             <p className='font-[400] text-slate-300 text-[1rem] leading-8'>
