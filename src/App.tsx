@@ -1,9 +1,9 @@
 import React from 'react';
 import Logo from './assets/logo.svg';
-import Banner from './components/Banner';
+import Banner from './components/Banner/Banner';
 import EarlyAccess from './components/EarlyAccess';
 import Footer from './components/Footer';
-import Header from './components/Header';
+import Header from './components/Header/Header';
 import Services from './components/Services';
 import StayProductive from './components/StayProductive';
 import Testimonials from './components/Testimonials';
@@ -17,10 +17,12 @@ function App() {
         <Banner />
         <Services />
         <StayProductive />
+        {/* 
+        
         <Testimonials />
-        <EarlyAccess />
+        <EarlyAccess /> */}
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </React.Fragment>
   );
 }
