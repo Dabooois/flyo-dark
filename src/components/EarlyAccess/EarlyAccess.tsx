@@ -3,7 +3,7 @@ import Button from '../Button/Button';
 
 const EarlyAccess = () => {
   return (
-    <section className='container relative '>
+    <section className='container relative z-20 '>
       <div className='flex flex-col  gap-16 py-16 shadow-lg bg-card-color rounded-xl lg:max-w-[80rem] lg:mx-auto'>
         <h4 className='text-2xl text-center font-bold mx-8 lg:text-[3rem]'>
           Get early access today

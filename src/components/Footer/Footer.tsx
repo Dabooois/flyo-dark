@@ -6,8 +6,8 @@ import Email from '../../assets/images/icon-email.svg';
 
 const Footer = () => {
   return (
-    <footer className='bg-footer-color  relative  mt-[-17rem] pt-[17rem] lg:mt-[-11rem] lg:pt-[-11rem] z-[-20] pb-16'>
-      <div className='container max-w-screen-md'>
+    <footer className='bg-footer-color  relative  mt-[-17rem] pt-[17rem] lg:mt-[-11rem] lg:pt-[-11rem] pb-16'>
+      <div className='container max-w-screen-md z-20'>
         <img className='w-auto h-14 my-16' src={Logo} alt='Logo' />
 
         <div className='lg:grid grid-cols-footer lg:gap-16'>
@@ -46,30 +46,30 @@ const Footer = () => {
           </div>
           <nav className='text-slate-50 text-xl lg:text-2xl leading-10 footer-nav mt-8 lg:mt-0'>
             <ul className=''>
-              <li className='pb-2 lg:pb-4'>
+              <li className='pb-2 lg:pb-4 hover:underline'>
                 <a href='#'>About Us</a>
               </li>
-              <li className='py-2 lg:py-4'>
+              <li className='py-2 lg:py-4 hover:underline'>
                 <a href='#'>Jobs</a>
               </li>
-              <li className='py-2 lg:py-4'>
+              <li className='py-2 lg:py-4 hover:underline'>
                 <a href='#'>Press</a>
               </li>
-              <li className='pt-2 lg:pt-4'>
+              <li className='pt-2 lg:pt-4 hover:underline'>
                 <a href='#'>Blog</a>
               </li>
             </ul>
           </nav>
-          <nav className='footer-nav text-slate-50 text-xl lg:text-2xl leading-10 mt-8 lg:mt-0'>
+          <nav className='footer-nav text-slate-50 text-xl lg:text-2xl leading-10 mt-8 lg:mt-0 '>
             <ul>
-              <li className='pb-2 lg:pb-4'>
+              <li className='pb-2 lg:pb-4 hover:underline'>
                 <a href='#'>Contact Us</a>
               </li>
-              <li className='py-2 lg:py-4'>
+              <li className='py-2 lg:py-4  hover:underline'>
                 <a href='#'>Terms</a>
               </li>
 
-              <li className='pt-2 lg:pt-4'>
+              <li className='pt-2 lg:pt-4 hover:underline'>
                 <a href='#'>Privacy</a>
               </li>
             </ul>
