@@ -23,17 +23,17 @@ const Footer = () => {
             </p>
           </div>
           <div className='lg:col-start-2'>
-            <div className=' flex items-center gap-8 py-4 lg:pt-0'>
+            <div className='flex items-center gap-8 py-4 lg:pt-0'>
               <img
                 src={Phone}
                 className='w-6 self-center shrink-0'
                 alt='location icon'
               />
-              <p className=' text-xl lg:text-2xl leading-8 lg:leading-10 text-slate-300'>
+              <p className='text-xl lg:text-2xl leading-8 lg:leading-10 text-slate-300'>
                 09366028024
               </p>
             </div>
-            <div className=' flex items-center gap-8 py-4'>
+            <div className=' flex items-center gap-8 '>
               <img
                 src={Email}
                 className='w-6 self-center shrink-0'
