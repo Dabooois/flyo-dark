@@ -9,7 +9,7 @@ const Banner = () => {
   return (
     <section className=' relative max-w-full '>
       <div className='bg-banner-color pt-16  md:pb-16 '>
-        <div className='mb-32 lg:mb-[20rem]'>
+        <div className='mb-32 lg:mb-spaceBottom'>
           <div className='relative container z-10  mb-16'>
             <img src={BannerImage} className='mx-auto' alt='banner image' />
           </div>
@@ -34,7 +34,7 @@ const Banner = () => {
               </p>
             </div>
 
-            <Button className='z-20 px-20'> Get Started</Button>
+            <Button className='z-20 px-20 py-6 '> Get Started</Button>
           </div>
         </div>
       </div>

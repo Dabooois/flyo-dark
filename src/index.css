@@ -31,70 +31,20 @@ body {
     xl:px-24;
 }
 
-.background-image {
-  background: hsl(219, 30%, 18%) url('../src/assets/images/bg-curvy-mobile.svg');
-
-  background-position: bottom;
-  background-repeat: no-repeat;
+.text-underline {
+  border-bottom: 1px solid #65e2d9;
 }
 
-/* 
-
-#header {
-  background: hsl(219, 30%, 18%);
+.form-input {
+  @apply p-6 
+    w-full
+    rounded-full 
+  text-slate-800 
+    focus:outline-none 
+  focus:border-sky-500 
+    focus:ring-1 
+    sm:text-sm
+  bg-white border
+  border-slate-400
+  placeholder:text-slate-400;
 }
-
-
-
-
-.btn {
-  background-image: linear-gradient(
-    to right,
-    hsl(176, 68%, 64%),
-    hsl(198, 60%, 50%)
-  );
-}
-
-.primary-color {
-  color: hsl(176, 68%, 64%);
-  border-bottom: 1px solid hsl(176, 68%, 64%);
-}
-
-.card-bg {
-  background-color: hsl(219, 30%, 18%);
-}
-
-.testimonial-container {
-  background-image: url('../src/assets/images/bg-quotes.png');
-  background-repeat: no-repeat;
-  background-position: top left;
-  padding: 2rem 0;
-  z-index: 100;
-  width: auto;
-  height: 10px;
-  position: absolute; 
-  top: -2rem;
-}
-
-.footer-bg {
-  background: hsl(216, 53%, 9%);
-}
-
-.footer-nav ul {
-  margin-top: 4rem;
-  margin-bottom: 4rem;
-}
-
-.footer-nav ul li {
-  margin-bottom: 1rem;
-}
-
-.footer-nav li {
-  font-size: 1.6rem;
-  @apply text-slate-400;
-}
-
-.footer-nav li:hover {
-  text-decoration: underline;
-  @apply text-slate-50;
-} */

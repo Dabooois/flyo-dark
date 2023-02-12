@@ -17,12 +17,10 @@ function App() {
         <Banner />
         <Services />
         <StayProductive />
-        {/* 
-        
         <Testimonials />
-        <EarlyAccess /> */}
+        <EarlyAccess />
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </React.Fragment>
   );
 }

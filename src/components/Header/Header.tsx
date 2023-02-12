@@ -11,13 +11,13 @@ const Header = () => {
         </div>
         <nav className='ml-auto text-slate-50 md:text-[1.6rem] text-[1.2rem] '>
           <ul className='flex flex-row ml-4 '>
-            <li className='px-5 hover:underline'>
+            <li className='px-5 lg:px-7 hover:underline'>
               <a href='#'>Features</a>
             </li>
-            <li className='px-5 hover:underline'>
+            <li className='px-5 lg:px-7 hover:underline'>
               <a href='#'>Team</a>
             </li>
-            <li className='pl-5 hover:underline'>
+            <li className='pl-5 lg:px-7 hover:underline'>
               <a href='#'>Signin</a>
             </li>
           </ul>

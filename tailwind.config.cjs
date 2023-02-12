@@ -19,10 +19,14 @@ module.exports = {
       },
 
       margin: {
-        spaceBottom: '4rem',
+        spaceBottom: '20rem',
       },
       padding: {
-        spaceBottom: '4rem',
+        spaceBottom: '20rem',
+      },
+
+      gridTemplateColumns: {
+        footer: '1fr 1fr 10rem 10rem 15rem',
       },
     },
   },
