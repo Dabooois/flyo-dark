@@ -1,5 +1,5 @@
 import React from 'react';
-import { ServiceData } from '../constants/data.json';
+import { ServiceData } from '../../constants/data.json';
 import Card from './Card';
 const Services = () => {
   return (

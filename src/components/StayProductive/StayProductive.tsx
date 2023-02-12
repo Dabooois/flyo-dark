@@ -1,6 +1,6 @@
 import React from 'react';
-import StayProductiveImage from '../assets/images/illustration-stay-productive.png';
-import IconArrow from '../assets/images/icon-arrow.svg';
+import StayProductiveImage from '../../assets/images/illustration-stay-productive.png';
+import IconArrow from '../../assets/images/icon-arrow.svg';
 
 const StayProductive = () => {
   return (

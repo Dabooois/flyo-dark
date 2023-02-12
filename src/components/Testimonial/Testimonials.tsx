@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Quote from '../assets/images/bg-quotes.png';
-import { TestimonialsData } from '../constants/data.json';
+import Quote from '../../assets/images/bg-quotes.png';
+import { TestimonialsData } from '../../constants/data.json';
 const Testimonials = () => {
   return (
     <section
