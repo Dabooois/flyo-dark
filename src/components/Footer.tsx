@@ -4,10 +4,6 @@ import Location from '../assets/images/icon-location.svg';
 import Phone from '../assets/images/icon-phone.svg';
 import Email from '../assets/images/icon-email.svg';
 
-import Facebook from '../assets/images/facebook.svg';
-import Twitter from '../assets/images/twitter.svg';
-import IG from '../assets/images/ig.svg';
-
 const Footer = () => {
   return (
     <footer className='bg-footer-color  relative  mt-[-17rem] pt-[17rem] lg:mt-[-11rem] lg:pt-[-11rem] z-[-20] pb-16'>
